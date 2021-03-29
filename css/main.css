@@ -3,6 +3,11 @@
     color: white;
 }
 
+.fonte-especial-escura {
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
 .fonte-especial-logo {
     font-family: 'Sansita Swashed', cursive;
     font-size: 4rem;
@@ -43,9 +48,7 @@
     right: 200px;
 }
 
-  
-.card-largura {
-    max-width: 10rem;
+#card-largura {
 }
 
 #bt-cor-especial {
@@ -86,6 +89,6 @@
 }
 
 .logo {
-    width: 8rem;
+    width: 7rem;
     position: relative;
 }
