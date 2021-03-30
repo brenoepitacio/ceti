@@ -8,14 +8,6 @@
     color: rgb(0, 0, 0);
 }
 
-.fonte-especial-logo {
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 4rem;
-    text-align: center;
-    background-color: #f8f9fa;
-}
-
-
 .imagem-carrosel-1 {
     object-fit: cover;
     object-position: 0 63%;
@@ -91,4 +83,20 @@
 .logo {
     width: 7rem;
     position: relative;
+}
+
+.imagem-destaque {
+    width: 30rem;
+}
+
+article {
+    color: black;
+}
+
+#suspiro-top {
+    margin-top: 10rem;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
 }
