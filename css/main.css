@@ -100,3 +100,7 @@ article {
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
+p {
+    font-size: 22px;
+}
