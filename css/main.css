@@ -40,8 +40,6 @@
     right: 200px;
 }
 
-#card-largura {
-}
 
 #bt-cor-especial {
     background-color: darkred;
@@ -64,7 +62,7 @@
 }
 
 .direitos:hover {
-    color: red;
+    color: rgb(20, 173, 76);
     transition: 2s;
 }
 
@@ -103,4 +101,13 @@ body {
 
 p {
     font-size: 22px;
+}
+
+.social-mídia li {
+    display: inline;
+}
+
+.img-social {
+    width: 2rem;
+    margin: 1rem;;
 }
