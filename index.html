@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Breno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body class="card container">
+    <header class="container">
+        <div class="card text-center mt-4">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills justify-content-md-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfólio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  data-bs-toggle="modal" data-bs-target="#modal-contato" href="contato.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </header>
+    <main>
+        <section class="mt-5 mb-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a short card.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                </div>
+          </div>
+          </section>
+    </main>
+    
+    <footer>
+      <ul class="container social-mídia text-center">
+        <li><a href=""><img class="img-social" src="img/twitter.svg"></a></li>
+        <li><a href=""><img class="img-social" src="img/facebook.svg"></a></li>
+        <li><a href=""><img class="img-social" src="img/instagram.svg"></a></li>
+        <li><a href=""><img class="img-social" src="img/linkedin.svg"></a></li>
+      </ul>
+      <h5 class="text-center">&copy;opyright</h5>
+      <p class="text-center texto-rodape fonte-especial">Direitos reservados<a class="direitos" href="mailto:brenoepitacio@gmail.com"> Breno</a></p>
+    </footer>
+
+    <!-- Modal -->
+  <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <form action="https://formspree.io/f/xoqprzbn" method="POST">
+
+            <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nome completo</label>
+            <input class="form-control" id="name" name="name" placeholder="Ana maria" type="text" required>
+            </div>
+
+            <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
+            <input class="form-control" id="email" name="email" placeholder="exemplo@email.com" type="email" required>
+            </div>
+            
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deixe seu comentário</label>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comentário" rows="5"></textarea><br>
+            </div>
+
+            <button class="btn btn-default pull-right btn-primary" type="submit">Enviar</button>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=5581992626097&text=" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+  <i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

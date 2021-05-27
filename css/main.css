@@ -1,0 +1,22 @@
+.social-mídia li {
+    display: inline;
+}
+
+.img-social {
+    width: 2rem;
+    margin: 1rem;;
+}
+
+.direitos {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+.direitos:hover {
+    color: rgb(20, 173, 76);
+    transition: 2s;
+}
+
+.texto-rodape {
+    font-size: 20px;
+}
